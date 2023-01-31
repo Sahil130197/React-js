@@ -15,7 +15,11 @@ const Example = () => {
                     <h3>Functional component</h3>
                 </div>
             </div>
-            <Outlet></Outlet>
+            <div className="row my-3">
+                <div className="col-md-12">
+                    <Outlet></Outlet>
+                </div>
+            </div>
         </div>
     );
 };
