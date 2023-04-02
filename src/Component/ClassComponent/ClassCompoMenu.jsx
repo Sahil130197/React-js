@@ -10,6 +10,12 @@ class ClassCompoMenu extends Component {
                     <li><Link to="JSXExampleClass">class component JSX</Link></li>
                     <li><Link to="PropsExample">class component Props</Link></li>
                     <li><Link to="StateExample">class component State</Link></li>
+                    <li><Link to="compolifecycleExample">class component Life Cycle</Link></li>
+                    <li><Link to="conditionalrender">class Conditional Render</Link></li>
+                    <li><Link to="listkeys">class List Keys</Link></li>
+                    <li><Link to="controlledcompo">class Controlled Compo</Link></li>
+                    <li><Link to="uncontrolledcompo">class UnControlled Compo</Link></li>
+                    <li><Link to="spreadvsrest">class Spread vs. Rest Compo</Link></li>
                 </ul>
                 <Outlet></Outlet>
             </div>
