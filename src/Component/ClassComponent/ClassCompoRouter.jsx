@@ -11,6 +11,7 @@ import ListKeys from './07ListKeysArrayMap.jsx';
 import ControlledCompo from './08ControlledCompo.jsx';
 import UnControlledCompo from './09UnControlledCompo.jsx';
 import SpreadvsRest from './10SpreadvsRest.jsx';
+import CompositionvsInheritance from './11CompositionVsInheritance.jsx';
 
 
 class ClassCompoRouter extends Component {
@@ -29,6 +30,7 @@ class ClassCompoRouter extends Component {
                         <Route path="controlledcompo" element={<ControlledCompo />} />
                         <Route path="uncontrolledcompo" element={<UnControlledCompo />} />
                         <Route path="spreadvsrest" element={<SpreadvsRest />} />
+                        <Route path="compovsinheritance" element={<CompositionvsInheritance />} />
                     </Route>
                 </Routes>
             </>
