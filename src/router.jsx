@@ -7,6 +7,7 @@ import React, { Suspense } from "react";
 
 // const ClassCompoRoute = React.lazy(()=>{return import('./Component/ClassComponent/ClassCompoRouter')})
 const ClassCompoRoute = React.lazy(()=>  import('./Component/ClassComponent/ClassCompoRouter'))
+const FunctionalCompoRoute = React.lazy(()=>  import('./Component/Functional Component/FunctionalCompoRouter'))
 const MainRouter = createBrowserRouter([
   {
     path: "/",
@@ -23,6 +24,10 @@ const MainRouter = createBrowserRouter([
       {
         path: "classcompo/*",
         element: <Suspense fallback={<h2>Loading...</h2>}><ClassCompoRoute/></Suspense>
+      },
+      {
+        path: "functionalcompo/*",
+        element: <Suspense fallback={<h2>Loading...</h2>}><FunctionalCompoRoute/></Suspense>
       }
     ]
 

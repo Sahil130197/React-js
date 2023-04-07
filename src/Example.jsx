@@ -12,7 +12,9 @@ const Example = () => {
 
                 </div>
                 <div className="col-6">
-                    <h3>Functional component</h3>
+                    <h3>
+                    <Link to="functionalcompo">Functional component </Link>
+                        </h3>
                 </div>
             </div>
             <div className="row my-3">

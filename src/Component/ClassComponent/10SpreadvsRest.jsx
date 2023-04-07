@@ -21,7 +21,7 @@ class SpreadVsRestCompo extends Component {
         &nbsp;&nbsp;&nbsp; return otherInfo;
         <br />
         &#125;
-        <br />
+        {/* <br /> */}
         // Invoke myBio function while passing five arguments to its parameters:{" "}
         <br />
         myBio("Oluwatobi", "Sofela", "CodeSweetly", "Web Developer", "Male");
