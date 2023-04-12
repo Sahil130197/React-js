@@ -10,6 +10,8 @@ class ClassCompoMenu extends Component {
                     <li><Link to="functionalCompoIntro">Functional component Intro</Link></li>
                     <li><Link to="functionalprops">Functional Props</Link></li>
                     <li><Link to="functionalstate">Functional State</Link></li>
+                    <li><Link to="functionaluseeffect">Functional Useeffect</Link></li>
+                    <li><Link to="functionaluselayouteffect">Functional UseLayouteffect</Link></li>
                 </ul>
 
                 </div>
