@@ -8,6 +8,7 @@ import FunctionalUseEffect from './04FunctionalUseEffect.jsx';
 import FunctionalUseLayoutEffect from './05FunctionalUseLayoutEffect.jsx';
 import FunctionalUseContext from './06UseContext.jsx';
 import FunctionalUseReducer from './07FunctionalUseReducer.jsx';
+import FunctionalUseCallback from './08FunctionalUseCallback.jsx';
 
 
 class ClassCompoRouter extends Component {
@@ -23,6 +24,7 @@ class ClassCompoRouter extends Component {
                         <Route path="functionaluselayouteffect" element={<FunctionalUseLayoutEffect />} />
                         <Route path="functionalusecontext" element={<FunctionalUseContext />} />
                         <Route path="functionalusereducer" element={<FunctionalUseReducer />} />
+                        <Route path="functionalusecallback" element={<FunctionalUseCallback />} />
                     </Route>
                 </Routes>
             
