@@ -10,6 +10,7 @@ import FunctionalUseContext from './06UseContext.jsx';
 import FunctionalUseReducer from './07FunctionalUseReducer.jsx';
 import FunctionalUseCallback from './08FunctionalUseCallback.jsx';
 import FunctionalUseMemo from './09FunctionalUseMemo.jsx';
+import FunctionalUseImperative from './10FunctionalUseImperative.jsx';
 
 
 class ClassCompoRouter extends Component {
@@ -27,6 +28,7 @@ class ClassCompoRouter extends Component {
                         <Route path="functionalusereducer" element={<FunctionalUseReducer />} />
                         <Route path="functionalusecallback" element={<FunctionalUseCallback />} />
                         <Route path="functionalusememo" element={<FunctionalUseMemo />} />
+                        <Route path="functionaluseImperative" element={<FunctionalUseImperative />} />
                     </Route>
                 </Routes>
             
