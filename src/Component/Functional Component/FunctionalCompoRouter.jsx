@@ -6,6 +6,8 @@ import FunctionalProps from './02FunctionalProps.jsx';
 import FunctionalState from './03FunctionalState.jsx';
 import FunctionalUseEffect from './04FunctionalUseEffect.jsx';
 import FunctionalUseLayoutEffect from './05FunctionalUseLayoutEffect.jsx';
+import FunctionalUseContext from './06UseContext.jsx';
+import FunctionalUseReducer from './07FunctionalUseReducer.jsx';
 
 
 class ClassCompoRouter extends Component {
@@ -19,6 +21,8 @@ class ClassCompoRouter extends Component {
                         <Route path="functionalstate" element={<FunctionalState />} />
                         <Route path="functionaluseeffect" element={<FunctionalUseEffect />} />
                         <Route path="functionaluselayouteffect" element={<FunctionalUseLayoutEffect />} />
+                        <Route path="functionalusecontext" element={<FunctionalUseContext />} />
+                        <Route path="functionalusereducer" element={<FunctionalUseReducer />} />
                     </Route>
                 </Routes>
             
