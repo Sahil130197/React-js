@@ -12,6 +12,7 @@ import FunctionalUseCallback from './08FunctionalUseCallback.jsx';
 import FunctionalUseMemo from './09FunctionalUseMemo.jsx';
 import FunctionalUseImperative from './10FunctionalUseImperative.jsx';
 import FunctionalUseRef from './11FunctionalUseRef.jsx';
+import StyledCompo from './12StyledCompo.jsx';
 
 
 class ClassCompoRouter extends Component {
@@ -31,6 +32,7 @@ class ClassCompoRouter extends Component {
                         <Route path="functionalusememo" element={<FunctionalUseMemo />} />
                         <Route path="functionaluseImperative" element={<FunctionalUseImperative />} />
                         <Route path="functionaluseref" element={<FunctionalUseRef />} />
+                        <Route path="styledcompo" element={<StyledCompo />} />
                     </Route>
                 </Routes>
             
